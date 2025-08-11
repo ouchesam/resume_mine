@@ -1,0 +1,75 @@
+ body {
+     font-family:'Times New Roman', Times, serif;
+     margin: 0;
+     padding: 0;
+     background-color: #000;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 20px;
+ }
+
+ .sidebar {
+     width: 30%;
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .main-content {
+     width: 70%;
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-left: 20px;
+ }
+
+ .profile-picture {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background-color: #ccc;
+     margin-bottom: 20px;
+ }
+
+ h1,
+ h2,
+ h3 {
+     color: #363736;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ p {
+     color: #535050;
+ }
+
+ .skills,
+ .tools {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .skills div,
+ .tools div {
+     background-color: #e0e0e0;
+     padding: 5px 10px;
+     margin: 5px;
+     border-radius: 5px;
+ }
+
+ .s_skills,
+ .tools {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .s_skills div,
+ .tools div {
+     background-color: #e0e0e0;
+     padding: 5px 10px;
+     margin: 5px;
+     border-radius: 5px;
+ }
